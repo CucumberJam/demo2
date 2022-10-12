@@ -29,7 +29,7 @@ public class MyController {
                 .uid(request.getUid())
                 .operationUid(request.getOperationUid())
                 .systemTime(request.getSystemTime())
-                .code("success")
+                .code("success processing request in second rest-service")
                 .errorCode("not success")
                 .errorMessage(" ")
                 .build();
